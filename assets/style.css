@@ -1,0 +1,62 @@
+/* General Style ofr Password Generator */
+* {
+	box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  
+}
+body{
+    
+    min-height: 100%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+
+    height: 500px;
+   
+   
+   
+    
+}
+
+.container{
+    background-color: #dfdbdb;
+}
+
+
+.exampleFormControlTextarea1{
+    text-align: center;
+}
+#pw,
+#copy{
+
+    
+        background-color: #4aaaa5;
+        color: white;
+       
+       
+    
+}
+
+
+#pw{
+    float: left;
+    margin: 0% 0% 0% 10%;
+}
+
+#copy{
+    float: right;
+    margin: 0 10% 0 0;
+}
+
+
