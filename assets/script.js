@@ -1,4 +1,4 @@
-/*body = document.body;
+body = document.body;
 var decrementEl = document.querySelector("#copy");
 var decrementEl = document.querySelector("#pw");
 var randompassword = "";
