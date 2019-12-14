@@ -22,7 +22,7 @@ if (insspc && insnumb == "yes"){
     randompassword = spcchar[Math.floor(Math.random()*spcchar.length)]+ Math.random().toString(36).substring(2, tonum +1) ;
     spcchar[Math.floor(Math.random()*spcchar.length)];
     var paragraph = document.getElementById("exampleFormControlTextarea1");
-    paragraph.textContent += randompassword;
+    paragraph.textContent = randompassword;
 
    
 
