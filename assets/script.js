@@ -18,6 +18,8 @@ var lowerchar = "abcdefghijklmnopqrstuvwxyz"
 var numb = "1234567890"
 var password = "";
 
+
+// Function generates password based on user preference 
 function generatepassword() {
     if (inslower == "yes") {
         for (var i = 0; i <= tonum / 2; i++) {
@@ -52,7 +54,7 @@ function generatepassword() {
         }
     }
 
-
+// takes all the characters and randomize it then writes to the document 
     var genpw = "";
     var pass = "";
     genpw = password + randompassword + randompw + random
