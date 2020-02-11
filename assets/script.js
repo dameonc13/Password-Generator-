@@ -5,28 +5,31 @@ var randompassword = "";
 var random = "";
 var randompw = "";
 
-var usrinput = prompt("how long do you wnat your password? Must be between 8 and 128 characters?")
-
+// prompts that ask user for its preferences to generate password 
+var usrinput = prompt("how long do you want your password? Must be between 8 and 128 characters?")
+var istrue =  isNaN(parseInt(usrinput))
 for (i = 7; i < 8; i++) {
-if (usrinput < 8 || usrinput == "" ){
 
+if (usrinput < 8 || usrinput == "" || isNaN(parseInt(usrinput)) ){
+    
     usrinput = prompt("Password character must be  8 or greater")
+    isNaN(parseInt(usrinput))
     var tonum = parseInt(usrinput - 1)
      i = tonum;
-
+    
 }
 }
-
+ 
 var tonum = parseInt(usrinput - 1)
 var insUpper = prompt("Do you want uppercase characters?")
 var insLower = prompt("Do you want lowercase characters?")
 var insSpc = prompt("Do you want special characters?")
 var insNumb = prompt("Do you want number?")
-
-/*if (insUpper || insLower || insSpc || insNumb == "" ){
-
-    
-}  */
+console.log(insNumb);
+console.log(insLower);
+console.log(insUpper);
+console.log(insSpc);
+  
 var spcchar = "/^$.,|?*+().<>"
 var capschar = "ABCDEFGHIJKLMNOPQRSTUVWZYZ"
 var lowerchar = "abcdefghijklmnopqrstuvwxyz"
@@ -37,7 +40,16 @@ var password = "";
 // Function generates password based on user preference 
 function generatepassword() {
     
-    
+    if (insUpper || insLower || insSpc || insNumb  != "yes"   ){
+
+        var insUpper = prompt("Do you want uppercase characters?")
+        var insLower = prompt("Do you want lowercase characters?")
+        var insSpc = prompt("Do you want special characters?")
+        var insNumb = prompt("Do you want number?")
+        
+            console.log(insNumb);
+            
+        }
     
     
     
