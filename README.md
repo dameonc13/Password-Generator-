@@ -7,7 +7,8 @@
 1. Questions
 2. Generator 
 3. Built With
-4. Live Depoyment
+4. Live Deployment
+5. Further Development 
 
 # Questions
 In this repository I  write a password generator website using html css and javascript. This code takes in user input and then randomize all the characters selected and write to the document. 
@@ -30,3 +31,10 @@ numbers, special characters, capitalized and lowercase numbers.
  # Live Deployment 
 
  https://dameonc13.github.io/Password-Generator-/?
+
+ # Further Development 
+
+ This app isn't perfect it get the basic done further development will be done. 
+ 
+ Noticeable bugs - When asked for length of password user can type in letters to bypass this. 
+                - User can also bypass character preferences without saying yes to any. User should be required to provide yes to one before exiting questions. 
